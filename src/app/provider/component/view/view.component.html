@@ -1,0 +1,17 @@
+<div class="header">
+    <button (click)="backClicked()">&laquo;Back</button>
+    <h1>Providers</h1>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <th>Select</th>
+            <th>Create</th>
+        </tr>
+        <tr>
+            <td> <button class="button button1" [routerLink]="['./select']"> Select </button> </td>
+            <td> <button class="button button1" [routerLink]="['./create']"> Create </button> </td>
+        </tr>
+    </table>
+</div>
